@@ -1,31 +1,151 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/Tap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Travel Guide</title>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="head">
-        <div id="home" onclick="change(this)"onmouseover="big(this)" onmouseout="sm(this)">Home</div>
-        <div id="us" onclick="change(this)" onmouseover="big(this)" onmouseout="sm(this)">About Us</div>
-        <div id="product" onclick="change(this)"onmouseover="big(this)" onmouseout="sm(this)">Product</div>
-        <div id="cont" onclick="change(this)"onmouseover="big(this)" onmouseout="sm(this)">Contacts</div>
+	<div class="nav">
+		<a href="#" class="logo">
+		TUPPERWARE
+		</a>
+		<ul class="menu">
+			<li>
+				<a href="#" id="cotalog">Каталог</a>
+			</li>
+			<li>
+				<a href="#">О нас</a>
+			</li>
+			<li>
+				<a href="#">Контакты</a>
+			</li>
+			<li>
+				<a href="#">Доставка и оплата</a>
+			</li>
+		</ul>
 
-    </div>
-    <div class="img">
-        <img id="img1" src="https://mylaptopguide.com/wp-content/uploads/2021/02/acer-predator-helios-300-rtx-3060-spotted.jpg", height="450" width="800">
-    </div>
-    <div class="text">
-        <h1 id="og">
-            Acer Predator
-        </h1>
-        <p id="cont1">
-            Immerse yourself in the game with everything you need for a battle: an incredibly fast display,<br> the latest NVIDIA ® GeForce RTX ™ 301 series graphics card (in maximum configuration), <br>an Intel ® Core ™ processor of the 11th generation1 and our special AeroBlade ™ 3D ventilation technology of the 5th generation.
-        </p>
-    </div>
-    <script type="text/javascript" src="hw5.js" >       
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+		<div class="log">	
+			<a href="registration/reg.html">
+			<h4>Войти</h4>
+			</a>
+		</div>
+
+		<div class="reg">
+			<a href="">
+				<img src="img/heart.png" id="hert" alt="" width="30" height="30">
+			</a>
+		</div>
+		<div class="reg2">
+			<a href="">
+				<img src="img/kisspng-computer-icons-shopping-cart-retail-sales-5ac8d75db0f829.0507566715231117737249.png" id="kor" alt="" width="35" height="35">
+			</a>
+			
+		</div>
+		
+		<div class="call">
+			<span>
+				+7 (777) 545-12-63
+			</span>
+			<a href="#" class="call-btn">
+				Заказать звонок
+			</a>
+		</div>
+	</div>
+
+			<div class="offer">
+				<h1>
+					<br>
+					<br>
+					Дари радость<br> вместе с Tupperware
+				</h1>
+				<a href="#" class="btn">
+					Каталог
+				</a>
+			</div>
+	
+	<section class="tupperwares">
+		<div class="container">
+			<h2>
+				О Tupperware
+			</h2>
+			<ul class="cards">
+				<li class="cards-item">
+					<img class="photo" src="img/photo1.jpg" >
+					<div class="cards-content">
+						<h3>
+							Готовка
+						</h3>
+						<p class="cards-text">С этими помощниками вы приготовите вкуснейшие блюда за считанные минуты!</p>
+					</div>
+				</li>
+				<li class="cards-item">
+					<img class="photo" src="img/photo2.jpg" >
+					<div class="cards-content">
+						<h3>
+							С собой
+						</h3>
+						<p class="cards-text">Берите с собой воду, напитки, обеды и перекусы в удобных, красивых и безопасных изделиях</p>
+					</div>
+				</li>
+				<li class="cards-item">
+					<img class="photo" src="img/photo3.jpg" >
+					<div class="cards-content">
+						<h3>
+							Хранение
+						</h3>
+						<p class="cards-text">Организуйте пространство и храните продукты гораздо дольше! ...</p>
+					</div>
+				</li>
+				<li class="cards-item">
+					<img class="photo" src="img/photo4.jpg">
+					<div class="cards-content">
+						<h3>
+							Разогрев
+						</h3>
+						<p class="cards-text">Специальный дизайн позволяет прогревать пищу, а не посуду. Выберите подходящий объем для домашних заготовок и обеда с собой</p>
+					</div>
+				</li>
+			</ul>
+			
+		</div>
+	</section>
+	<section class="about">
+		<div class="container">
+			<h2>О нас</h2>
+			<div class="about-content">
+				<img src="img/trave-guide.jpg" alt="Our team">
+				<div class="about-text">
+					<h3>
+						Tupperware®
+					</h3>
+					<p>Tupperware® – это всемирно известный производитель эксклюзивной высококачественной посуды для дома и кухни. Изделия, выпускаемые под данным брендом, знают в Москве, Лондоне, Париже, Берлине и тысяче других городов по всему миру. Миллионы хозяек уже оценили нашу продукцию и решения, которые делают их жизнь проще и ярче. Каждые две секунды в мире начинается новая презентация посуды Tupperware®, которая позволит наглядно убедиться в ее замечательных свойствах.</p>
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="container">
+			<h2>Как получить скидку</h2>
+			<form action="#" class="form">
+				<h3>
+					Просто заполните форму, чтобы получить 25% скидку
+				</h3>
+				<input type="text" placeholder="Имя" required>
+				<input type="email" placeholder="E-mail" required>
+				<input type="tel" placeholder="Телефон" required>
+				<button type="submit" class="btn">
+					Отправить
+				</button>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-text">
+				2021 © Tupperware
+			</div>
+		</div>
+	</footer>
 </body>
+</html>
