@@ -26,6 +26,11 @@ h2 {
 h3 {
 	font-size: 20px;
 }
+
+section {
+	padding-top: 87px;
+}
+
 ul,li {
 	display: block;
 	padding: 0;
@@ -39,8 +44,74 @@ p {
 
 a {
 	text-decoration: none;
-	transition: all 0.5s ease;
+	transition: 2s;
 }
+
+.mangas {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.names {
+    font-size: 36px;
+    text-align: center;
+    font-weight: border;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 64px;
+}
+
+.card-box :hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+	transform: scale(1.1); 
+
+}
+
+.card__box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 64px;
+}
+
+.card__box :hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+	transform: scale(1.1); 
+}
+
+.card {
+    width: 450px;
+    padding: 50px 50px 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.photo {
+    width: 350px;
+    height: 450px;
+	align-items: center;
+}
+
+.heading-mini {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+.card__link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
 
 .btn {
 	background: #FF3465;
@@ -87,11 +158,6 @@ display: block;
 	color: rgb(212, 35, 133);
 	font-family: 'Comfortaa', cursive;
 }
-.photo{
-	width: 277px;
-	height: 173px;
-}
-
 .logo {
 	text-transform: uppercase;
 	font-weight: bold;
@@ -133,6 +199,10 @@ display: block;
 
 .log h4{
 	font-family: 'Comfortaa', cursive;
+}
+
+.reg{
+	margin-left: 10px;
 }
 
 .reg2 #kor{
@@ -256,6 +326,7 @@ display: block;
 	text-align: center;
 	padding: 58px 64px 97px;
 	margin: 0 auto
+
 }
 
 .form h3 {
@@ -280,7 +351,6 @@ display: block;
 	padding: 21px 0;
 	transition: all 0.5s ease;
 }
-
 
 .footer-text {
 	font-size: 15px;
