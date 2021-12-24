@@ -376,3 +376,14 @@ display: block;
 .rating-mini > span.active {
    color: gold;
 }
+.page{
+	text-align: center;
+	text-decoration: none;
+	margin-top: -50px;
+}
+
+.page h1{
+	font-size: 20px;
+	
+	letter-spacing: 0.055em;
+}
